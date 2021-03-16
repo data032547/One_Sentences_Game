@@ -1,7 +1,6 @@
 import kivy
 from kivy.app import App
-from kivy.lang import Builder
-from kivy.uix.button import Button
+from kivy.uix.widget import Widget
 
 class TestApp(App):
     def build(self):
