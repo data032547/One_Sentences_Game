@@ -1,0 +1,10 @@
+Tim -> Recherche/ und Reinfuxen zu pdf Bearbeitung 
+in Python und verschiedenen Tools und Möglichkeiten in diesem Bereich.
+
+Nils -> Recherche/ und Reinfuxen zu geeigneter GUI(pygame,kivy,tkinter,...)
+
+Tristan -> Download von 
+ 1. VS Code
+ 2. Git 
+ 3. Git Hub Desktop
+ + Git Hub Acc erstellen und Nils den Nutzernamen schicken
