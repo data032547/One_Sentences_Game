@@ -1,3 +1,5 @@
+Zielsetzung bis zum Treffen am 23.03.21 :
+
 Tim -> Recherche/ und Reinfuxen zu pdf Bearbeitung 
 in Python und verschiedenen Tools und Möglichkeiten in diesem Bereich.
 
@@ -8,3 +10,4 @@ Tristan -> Download von
  2. Git 
  3. Git Hub Desktop
  + Git Hub Acc erstellen und Nils den Nutzernamen schicken
+ ---------------------------------------------------------------------------
