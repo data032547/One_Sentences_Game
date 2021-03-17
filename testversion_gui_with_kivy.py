@@ -4,7 +4,7 @@ Verwendete Tools:
 - kivy
 - time
 Autor:
-- Nils
+- data032547
 
 """
 #Importieren der benötigten Libs
