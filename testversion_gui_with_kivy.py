@@ -14,6 +14,10 @@ from kivy.uix.widget import Widget
 from kivy.uix.label import Label
 from kivy.uix.gridlayout import GridLayout
 from kivy.uix.textinput import TextInput
+from kivy.config import Config
+from kivy.uix.popup import Popup
+from kivy.core.window import Window
+
 from time import sleep 
 
 #Standart App Code
@@ -28,7 +32,6 @@ class MyGridLayout(GridLayout):
 
         #Constructor Call
         super(MyGridLayout, self).__init__()
-
         self.fenster_laden()
 
     def fenster_laden(self):
@@ -53,6 +56,8 @@ class MyGridLayout(GridLayout):
         beenden.bind(on_press=self.ende)
         self.add_widget(beenden)
 
+        self.erklärung()
+
 
     def next(self,instance):
         self.liste.append(self.satz.text)
@@ -64,6 +69,11 @@ class MyGridLayout(GridLayout):
     def ende(self,instance):
         print(self.liste)
         MyApp().stop()
+
+    def erklärung(self,instance):
+        # Erklärung Popup
+        erklärung = Popup(text="Spielanleitung",content=Label(text="Test"))
+        erklärung.open()
 
 class MyApp(App):
     def build(self):
