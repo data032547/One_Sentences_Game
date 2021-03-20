@@ -33,8 +33,15 @@ class MyGridLayout(GridLayout):
         #Constructor Call
         super(MyGridLayout, self).__init__()
         self.fenster_laden()
+        
 
     def fenster_laden(self):
+
+        # Erklärung aufrufen
+        erklärung = Button(text="Spielanleitung", font_size = 10)
+        erklärung.bind(on_press=self.erklärung())
+        self.add_widget(erklärung)
+
         # setzte Säulen
         self.cols = 1
 
@@ -56,9 +63,6 @@ class MyGridLayout(GridLayout):
         beenden.bind(on_press=self.ende)
         self.add_widget(beenden)
 
-        self.erklärung()
-
-
     def next(self,instance):
         self.liste.append(self.satz.text)
 
@@ -70,10 +74,12 @@ class MyGridLayout(GridLayout):
         print(self.liste)
         MyApp().stop()
 
-    def erklärung(self,instance):
+    def erklärung(self):
         # Erklärung Popup
-        erklärung = Popup(text="Spielanleitung",content=Label(text="Test"))
-        erklärung.open()
+        popup = Popup(title='Spielanleitung',
+        content=Label(text='Yeet'),
+        size_hint=(None, None), size=(400, 400))
+        popup.open()
 
 class MyApp(App):
     def build(self):
