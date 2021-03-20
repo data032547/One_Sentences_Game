@@ -26,6 +26,9 @@ class StandartApp(App):
         return Button(text="Dies ist ein Standartfenster")
 
 # Vorbereitung eines Modules für's Spiel
+
+""" Optik ist noch deutlich ausbaufähig! """
+
 class MyGridLayout(GridLayout):
     def __init__(self,liste=[]):
         self.liste = liste
@@ -36,12 +39,12 @@ class MyGridLayout(GridLayout):
         
 
     def fenster_laden(self):
-
+        
         # Erklärung aufrufen
-        erklärung = Button(text="Spielanleitung", font_size = 10)
-        erklärung.bind(on_press=self.erklärung())
+        erklärung = Button(text="Spielanleitung")
+        erklärung.bind(on_press=self.erklärung)
         self.add_widget(erklärung)
-
+        
         # setzte Säulen
         self.cols = 1
 
@@ -65,7 +68,6 @@ class MyGridLayout(GridLayout):
 
     def next(self,instance):
         self.liste.append(self.satz.text)
-
         #clear
         self.letzter_satz.text = self.satz.text
         self.satz.text = "Satz hier eingeben..."
@@ -74,7 +76,7 @@ class MyGridLayout(GridLayout):
         print(self.liste)
         MyApp().stop()
 
-    def erklärung(self):
+    def erklärung(self,instance):
         # Erklärung Popup
         popup = Popup(title='Spielanleitung',
         content=Label(text='Yeet'),
