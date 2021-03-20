@@ -23,8 +23,8 @@ class StandartApp(App):
 
 # Vorbereitung eines Modules für's Spiel
 class MyGridLayout(GridLayout):
-    def __init__(self,anzeige="None",letzter_satz="None"):
-        self.letzter_satz = letzter_satz
+    def __init__(self):
+
         #Constructor Call
         super(MyGridLayout, self).__init__()
 
@@ -34,13 +34,21 @@ class MyGridLayout(GridLayout):
         # setzte Säulen
         self.cols = 1
         # setzte letzen Satz Label
-        self.add_widget(Label(text=self.letzter_satz, font_size = 32))
+        self.letzter_satz = Label(text="None", font_size = 32)
+        self.add_widget(self.letzter_satz)
         # setzte Input
-        text = TextInput(multiline=True,text="Antwort hier eingeben...",font_size=32)
-        self.add_widget(text)
+        self.satz = TextInput(multiline=True,text="Satz hier eingeben...",font_size=32)
+        self.add_widget(self.satz)
         # setzte Button
         absenden = Button(text="absenden", font_size = 32)
+        absenden.bind(on_press=self.next)
         self.add_widget(absenden)
+
+    def next(self,instance):
+        satz = self.satz.text
+        #clear
+        self.letzter_satz.text = satz
+        self.satz.text = "Satz hier eingeben..."
 
 class Test(App):
     def build(self):
