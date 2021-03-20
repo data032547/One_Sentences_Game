@@ -26,6 +26,7 @@ class StandartApp(App):
 
 # Vorbereitung eines Modules für's Spiel
 """ Optik ist noch deutlich ausbaufähig! """
+
 class MyGridLayout(GridLayout):
     def __init__(self,liste=[]):
         self.liste = liste
@@ -33,6 +34,7 @@ class MyGridLayout(GridLayout):
         #Constructor Call
         super(MyGridLayout, self).__init__()
         self.fenster_laden()
+
     def fenster_laden(self):
         # Erklärung aufrufen
         erklärung = Button(text="Spielanleitung")
@@ -54,20 +56,24 @@ class MyGridLayout(GridLayout):
         beenden = Button(text="Spiel beenden", font_size = 22)
         beenden.bind(on_press=self.ende)
         self.add_widget(beenden)
+
     def next(self,instance):
         self.liste.append(self.satz.text)
         #clear
         self.letzter_satz.text = self.satz.text
         self.satz.text = "Satz hier eingeben..."
+
     def ende(self,instance):
         print(self.liste)
         MyApp().stop()
+
     def erklärung(self,instance):
         # Erklärung Popup
         popup = Popup(title='Spielanleitung',
         content=Label(text='Yeet'),
         size_hint=(None, None), size=(400, 400))
         popup.open()
+
 class MyApp(App):
     def build(self):
         return MyGridLayout()
