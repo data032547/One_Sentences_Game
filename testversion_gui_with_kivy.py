@@ -32,11 +32,11 @@ class MyGridLayout(GridLayout):
 
     def fenster_laden(self):
         # setzte Säulen
-        self.cols = 2
+        self.cols = 1
         # setzte letzen Satz Label
         self.add_widget(Label(text=self.letzter_satz, font_size = 32))
         # setzte Input
-        text = TextInput(multiline=False)
+        text = TextInput(multiline=True,text="Antwort hier eingeben...",font_size=32)
         self.add_widget(text)
         # setzte Button
         absenden = Button(text="absenden", font_size = 32)
