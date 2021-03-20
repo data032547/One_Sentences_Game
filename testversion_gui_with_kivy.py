@@ -55,19 +55,20 @@ class MyGridLayout(GridLayout):
 
 
     def next(self,instance):
-        self.liste = self.liste + self.satz.text
+        self.liste.append(self.satz.text)
 
         #clear
         self.letzter_satz.text = self.satz.text
         self.satz.text = "Satz hier eingeben..."
 
-    def ende(self):
+    def ende(self,instance):
         print(self.liste)
+        MyApp().stop()
 
-class Test(App):
+class MyApp(App):
     def build(self):
         return MyGridLayout()
 
 #führt x-Objekt bei Test aus
 if __name__ == "__main__":
-    Test().run()
+    MyApp().run()
