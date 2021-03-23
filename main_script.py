@@ -81,4 +81,3 @@ class MyApp(App):
 #führt x-Objekt bei Test aus
 if __name__ == "__main__":
     MyApp().run()
-    print("Trsiatn")
