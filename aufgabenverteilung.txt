@@ -2,10 +2,7 @@ Zielsetzung bis zum Treffen am 23.03.21 :
 
 Tim -> Recherche/ und Reinfuxen zu pdf Bearbeitung 
 in Python und verschiedenen Tools und Möglichkeiten in diesem Bereich.
-
-Nils -> Recherche/ und Reinfuxen zu geeigneter GUI(pygame,kivy,tkinter,...) + Programmierung von erster funktionierender Version
-
-Tristan -> Download von 
+https://github.com/data032547/One_Sentences_Game/invitations
  1. VS Code
  2. Git 
  3. Git Hub Desktop
