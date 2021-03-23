@@ -2,9 +2,22 @@ Zielsetzung bis zum Treffen am 23.03.21 :
 
 Tim -> Recherche/ und Reinfuxen zu pdf Bearbeitung 
 in Python und verschiedenen Tools und Möglichkeiten in diesem Bereich.
-https://github.com/data032547/One_Sentences_Game/invitations
+
+Nils -> Recherche/ und Reinfuxen zu geeigneter GUI(pygame,kivy,tkinter,...) + Programmierung von erster funktionierender Version
+
+Tristan -> Download von 
  1. VS Code
  2. Git 
  3. Git Hub Desktop
  + Git Hub Acc erstellen und Nils den Nutzernamen schicken
  ---------------------------------------------------------------------------
+ Zielsetzung bis zum 30.03.21 :
+
+ Tim -> Programmierung von Code der eine Liste mit Strings in ein pdf Dokument umwandelt [externe Datei]
+
+ Nils -> Grafik/Aufhübschung von Spielfesnter/ Mainwindow 
+
+ Tristan -> Recherche zu Umwandlung von .py Datei zu .exe Datei und vergleichbares Format zu .exe für Android/IOS raussuchen
+ 
+ Tim[Idee] -> möglicherweise Einbettung in Webseite(HTML/JavaSkript)
+---------------------------------------------------------------------------
