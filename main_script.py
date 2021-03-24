@@ -43,7 +43,7 @@ class MyGridLayout(GridLayout):
         # setzte Säulen
         self.cols = 1
         # setzte letzen Satz Label
-        self.letzter_satz = Label(text="None", font_size = 32)
+        self.letzter_satz = Label(text="", font_size = 32)
         self.add_widget(self.letzter_satz)
         # setzte Input
         self.satz = TextInput(multiline=True,text="Satz hier eingeben...",font_size=32)
@@ -70,7 +70,7 @@ class MyGridLayout(GridLayout):
     def erklärung(self,instance):
         # Erklärung Popup
         popup = Popup(title='Spielanleitung',
-        content=Label(text='Yeet'),
+        content=Label(text='Jeder Mitspieler sieht einen Satz und zwar immer 1 '),
         size_hint=(None, None), size=(400, 400))
         popup.open()
 
