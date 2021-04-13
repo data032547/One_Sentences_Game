@@ -11,7 +11,7 @@ Tristan -> Download von
  3. Git Hub Desktop
  + Git Hub Acc erstellen und Nils den Nutzernamen schicken
  ---------------------------------------------------------------------------
- Zielsetzung bis zum 30.03.21 :
+ Zielsetzung bis zum 20.04.21 :
 
  Tim -> Programmierung von Code der eine Liste mit Strings in ein pdf Dokument umwandelt [externe Datei]
 
@@ -19,5 +19,6 @@ Tristan -> Download von
 
  Tristan -> Recherche zu Umwandlung von .py Datei zu .exe Datei und vergleichbares Format zu .exe für Android/IOS raussuchen
  
- Tim[Idee] -> möglicherweise Einbettung in Webseite(HTML/JavaSkript)
+ Tim[Idee] -> möglicherweise Einbettung in Webseite(HTML/JavaScript)
 ---------------------------------------------------------------------------
+
