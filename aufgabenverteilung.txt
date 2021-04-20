@@ -15,7 +15,8 @@ Tristan -> Download von
 
  Tim -> Programmierung von Code der eine Liste mit Strings in ein pdf Dokument umwandelt [externe Datei]
 
- Nils -> Grafik/Aufhübschung von Spielfesnter/ Mainwindow + virtualenvironment einrichten
+ Nils -> Grafik/Aufhübschung von Spielfesnter/ Mainwindow Recherche und Coden 
+        + Virtualenvironment einrichten um Ausführung des Codes von jedem Rechner aus zu ermöglichen
 
  Tristan -> Recherche zu Umwandlung von .py Datei zu .exe Datei und vergleichbares Format zu .exe für Android/IOS raussuchen
  
@@ -25,7 +26,7 @@ Zielsetzung bis zum 27.04.21
 
 Tim ->
 
-Nils ->
+Nils -> Grafik/Aufhübschung von Spielfesnter/ Mainwindow Recherche und Coden
 
 Tristan -> Text für Spielanleitung schreiben/ verfassen
 
