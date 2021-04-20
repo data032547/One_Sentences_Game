@@ -10,15 +10,24 @@ Tristan -> Download von
  2. Git 
  3. Git Hub Desktop
  + Git Hub Acc erstellen und Nils den Nutzernamen schicken
- ---------------------------------------------------------------------------
+---------------------------------------------------------------------------
  Zielsetzung bis zum 20.04.21 :
 
  Tim -> Programmierung von Code der eine Liste mit Strings in ein pdf Dokument umwandelt [externe Datei]
 
- Nils -> Grafik/Aufhübschung von Spielfesnter/ Mainwindow 
+ Nils -> Grafik/Aufhübschung von Spielfesnter/ Mainwindow + virtualenvironment einrichten
 
  Tristan -> Recherche zu Umwandlung von .py Datei zu .exe Datei und vergleichbares Format zu .exe für Android/IOS raussuchen
  
  Tim[Idee] -> möglicherweise Einbettung in Webseite(HTML/JavaScript)
----------------------------------------------------------------------------
+ ---------------------------------------------------------------------------
+Zielsetzung bis zum 27.04.21
+
+Tim ->
+
+Nils ->
+
+Tristan -> Text für Spielanleitung schreiben/ verfassen
+
+
 
