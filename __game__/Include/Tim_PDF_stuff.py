@@ -1,4 +1,3 @@
-pip install reportlab
 
 from reportlab.lib.enums import TA_JUSTIFY, TA_CENTER
 from reportlab.lib.pagesizes import letter
