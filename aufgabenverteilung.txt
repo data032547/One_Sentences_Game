@@ -24,7 +24,7 @@ Tristan -> Download von
  ---------------------------------------------------------------------------
 Zielsetzung bis zum 27.04.21
 
-Tim ->
+Tim -> PDF Verbesserung 
 
 Nils -> Grafik/Aufhübschung von Spielfesnter/ Mainwindow Recherche und Coden
 
