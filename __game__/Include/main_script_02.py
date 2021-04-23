@@ -17,9 +17,9 @@ from kivy.lang import Builder
 from kivymd.app import MDApp
 
 # Laden der entsprechenden .kv Datei
-Builder.load_file('main_script_02.kv')
+Builder.load_file('layout.kv')
 
-class Main_Layout(Widget):
+class MAIN_LAYOUT(Widget):
     pass
 
 class Main_App(MDApp):
