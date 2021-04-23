@@ -1,1 +1,14 @@
 <MAIN_LAYOUT>
+    BoxLayout:
+        orientation: "vertical"
+        size: root.width, root.height
+        padding: "48dp"
+        spacing: "48dp"
+
+    
+        MDTextField:
+            hint_text: "Gebe hier deinen Satz ein!"
+            mode: "rectangle"
+            icon_right: "arrow-down-drop-circle-outline"
+            icon_right_color: app.theme_cls.primary_color
+            pos_hint: {"center_y":20}

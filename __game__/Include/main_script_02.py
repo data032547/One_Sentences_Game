@@ -24,7 +24,7 @@ class MAIN_LAYOUT(Widget):
 
 class Main_App(MDApp):
     def build(self):
-        return Main_Layout()
+        return MAIN_LAYOUT()
 
 #führt x-Objekt bei Test aus
 if __name__ == "__main__":
