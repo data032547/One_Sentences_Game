@@ -28,8 +28,17 @@ Tim -> PDF Verbesserung
 
 Nils -> Grafik/Aufhübschung von Spielfesnter/ Mainwindow Recherche und Coden
 
-Tristan -> Text für Spielanleitung schreiben/ verfassen
+Tristan -> Text für Spielanleitung schreiben/ verfassen 
 
+----------------------------------------------------------------------------
+Zielsetzung bis zum 04.05.21
+
+Tim -> PDF Verbesserung + Recherche technischer Möglichkeiten mit Text und Ton auf audiovisueller Bais(Gebärdensprache)
+
+Nils -> Grafik/Aufhübschung von Spielfesnter/ Mainwindow Recherche und Coden
+
+Tristan -> Text für Spielanleitung schreiben/ verfassen 
+----------------------------------------------------------------------------
 
 
 
